@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "inspire-recommender-prototype"
+version = "0.1.0"
+description = "Protoyping a recommender system for INSPIRE"
+authors = ["CERN"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tqdm = "^4.54.1"
+backoff = "^1.10.0"
+requests = "^2.25.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.15"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
